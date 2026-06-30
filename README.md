@@ -37,6 +37,11 @@ The biggest thing we found was that developers who use AI tools more tend to mak
 
 Python, Pandas, scikit-learn, Matplotlib, Jupyter Notebook
 
+## Datasets
+
+- `pdata.zip` - the tweets dataset, over 200,000 tweets about ChatGPT with sentiment labels. Had to zip this one because GitHub would not let me upload the raw file, it was too big. Just unzip it before running the notebooks
+- `sdata.csv` - the developer activity dataset with stuff like coding hours, AI usage, sleep hours, and commits
+
 ## Project notebooks
 
 - 01_EDA_and_Preprocessing.ipynb
@@ -50,7 +55,7 @@ Python, Pandas, scikit-learn, Matplotlib, Jupyter Notebook
 pip install pandas scikit-learn matplotlib jupyter
 ```
 
-Open the notebooks in order from 01 to 04. You will need pdata.csv and sdata.csv to run the code.
+Clone the repo, make sure pdata.csv and sdata.csv are in the same folder, then open the notebooks in order from 01 to 04.
 
 ## Authors
 Nikhil Patel and Nitul Patel
